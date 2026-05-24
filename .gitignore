@@ -35,3 +35,15 @@ logs/
 
 # Docker
 docker-compose.override.yml
+
+.planning/
+
+
+# AI / Agent files
+AGENTS.md
+.planning/
+.planning
+.planning/*
+*AGENTS*.md
+*agents*.md
+*AGENT*.md
