@@ -1,0 +1,12 @@
+{
+  "project_code": "WORKLOG",
+  "project_name": "Журнал работ на строительном объекте",
+  "workflow_mode": "standard",
+  "granularity": "medium",
+  "git_commits": true,
+  "parallel_agents": true,
+  "research_enabled": true,
+  "auto_mode": true,
+  "runtime": "codex",
+  "created_at": "2026-05-24T20:25:00+05:00"
+}
