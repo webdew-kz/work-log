@@ -6,6 +6,7 @@ COPY apps/api/package*.json ./apps/api/
 RUN npm install --workspace=@worklog/api
 COPY apps/api ./apps/api
 COPY package.json ./
+RUN cd apps/api && npx prisma generate
 RUN npm run build -w apps/api
 
 # Production stage
